@@ -1,0 +1,151 @@
+*{
+    font-family: 'play';
+    font-weight: 400;
+    color: rgba(27, 26, 23, 1);
+}
+.box{
+    border: 3px solid red;
+}
+.line{
+    width: 50px;
+    height: 1px;
+    border: 1px solid rgba(139, 131, 113, 1);
+}
+.button{
+    max-width: 205px;
+    height: 64px;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 5%;
+    padding: 26px 38px 26px 38px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+/* navbar */
+.navbar-link a{
+    color: rgba(85, 82, 72, 1);
+    font-family: 'roboto';
+    font-size: 14px;
+    line-height: 16px;
+}
+.bars{
+    font-size: 25px;
+}
+/* navbar end */
+/* header */
+.header-heading{
+    font-size: 45px;
+    line-height: 60px;
+}
+header h2{
+    font-size: 30px;
+    line-height: 40px;
+
+}
+.header-p{
+    font-family: 'roboto';
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 268px;
+    color: rgba(27, 26, 23, 0.82);
+}
+header .button{
+    background:  rgba(68, 66, 64, 1);
+}
+.header-price{
+    position: absolute;
+    top: 138px;
+    left: 0;
+}
+.header-price2{
+    position: absolute;
+    bottom: 116px;
+    right: 0px;
+}
+.header-price-p{
+    font-family: 'prata';
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(27, 26, 23, 1);
+}
+/* header end */
+/* main */
+.main{
+    padding: 80px 0;
+}
+
+.heading{
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+.name{
+    margin: 0;
+}
+.main-img{
+    display: flex; 
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgba(139, 131, 113, 1);
+    justify-content: center;
+}
+.section{
+    position: absolute;
+    top: 38px;
+    right: 0;
+    border-bottom: 1px solid rgba(139, 131, 113, 1);
+}
+/* main end */
+/* info */
+.info{
+    margin-bottom: 90px;
+}
+.info .heading{
+    text-align: start;
+}
+.info-p{
+    font-family: 'roboto';
+    font-size: 16px;
+    line-height: 24px;
+    color:  rgba(68, 66, 64, 1);
+    max-width: 376px;
+}
+.info .button{
+    background: rgba(212, 176, 152, 1);
+}
+.fa-angle-right{
+    margin-right: 40px;
+}
+/* info end */
+/* footer */
+footer{
+    padding: 79px 0 67px 0;
+    background: rgba(68, 66, 64, 1);
+}
+footer *{
+    color: rgba(255, 255, 255, 1);
+}
+.footer-heading{
+    font-family: 'roboto';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 7%;
+}
+.footer-link a{
+    opacity: 0.5;
+    font-family: 'roboto';
+    font-size: 12px;
+    line-height: 14px;
+}
+/* footer end */
+/* whitehacker */
+.whitehacker{
+    background: rgba(68, 66, 64, 1);
+}
+.whitehacker p{
+    color: rgba(255, 255, 255, 1);
+}
+/* whitehacker end */
